@@ -1,0 +1,12 @@
+f = str(input("Are you a Father or a Mother ? "))
+
+a = input("What is the name of your first born ? ")
+
+p = "father"
+
+if (f == p) :
+ print("Abu " + a) 
+ 
+else : 
+ print("Umm " + a)
+ 
