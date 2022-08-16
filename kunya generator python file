@@ -1,12 +1,21 @@
-f = str(input("Are you a Father or a Mother ? "))
+print("WELCOME TO YOUR KUNYA GENERATOR!\n ")
+
+f = input("Are you a Father or a Mother ?  ")
+
+print(" ")
 
 a = input("What is the name of your first born ? ")
 
+print("\nHere you have your awesome Kunya!\n")
+
 p = "father"
+
+Cp = "Father"
 
 if (f == p) :
  print("Abu " + a) 
- 
+elif (f == Cp) :
+  print("Abu " + a)
+
 else : 
  print("Umm " + a)
- 
